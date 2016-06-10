@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 15px;
     padding-bottom: 20px;
 }
 
@@ -14,4 +14,21 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.container.body-content p {
+    color: #676363;
+    font-family: verdana;
+    font-size: 15px;
+}
+
+.container.body-content h1 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+progress.xp::-webkit-progress-value { 
+   background: rgb(160, 107, 225);
 }
