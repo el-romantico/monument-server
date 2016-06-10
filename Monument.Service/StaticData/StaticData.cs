@@ -34,7 +34,8 @@
             }
         }
 
-        public static string NevskiEN {
+        public static string NevskiEN
+        {
             get
             {
                 return @"
@@ -60,6 +61,70 @@
     The marble parts and the lighting fixtures were created in Munich, the metal elements for the gates in Berlin, while the gates themselves were manufactured in Karl Bamberg's factory in Vienna, and the mosaics were shipped from Venice.
 </p>
 ";
+            }
+        }
+
+        public static string VazovBG
+        {
+            get
+            {
+                return @"
+<h1>
+    Народен театър „Иван Вазов“
+</h1>
+<p>
+    <img src=""/Content/Images/2.jpg"" style=""width:100%;"" />
+</p>
+<p>
+    Народен театър „Иван Вазов“ е Национален културен институт в областта на театралното изкуство. След Освобождението на България от османско иго град София е определен за столица. Постепенно тук  се създават нови учебни и културни институции. За начало на летоброенето на Народния театър се счита заповед на министъра на Народното просвещение д-р Иван Д. Шишманов,  с която от 1 януари 1904 г. управителят на подкрепяната от държавата Народна драматическа трупа „Сълза и смях“ г-н Илия Миларов е назначен за „Интендант“. От пролетта на същата година названието на трупата вече е Български народен театър.
+ </p>
+ <p>
+     От 1906 г. до 1952 г. трупата носи името Народен театър, а от 1952 г. до 1962 г. – Народен театър „Кръстьо Сарафов“. От 1962 г. и до днес официалното название е  Народен театър „Иван Вазов“.
+ </p>
+ <p>
+     Със заповед от 14 юли 1903 г. министър д-р Ив. Д. Шишманов назначава комисия начело с г-н Илия Миларов, която да подготви  предложение за постройка на сграда за Народния театър в София. Народното събрание взима решение и с Указ на княз Фердинанд I се отчуждава терен на мястото на бившия дъсчен театър „Основа“, където  през юни 1904 г. започва строежът на сградата по проект на виенските архитекти Фердинанд Фелнер и Херман Хелмер. Живописното оформление на тавана и стените в зрителната зала, която разполага с 848 места, е възложено на известния виенски художник Рудолф Фукс. Народният театър отваря врати  на 3 януари 1907 г. със специално представление. Преди тържественото откриване множество студенти освирква княз Фердинанд I и той с указ решава да затвори Софийския университет за шест месеца.
+</p>
+<p>
+    На 10 февруари 1923 г. по време на юбилейния спектакъл „Апотеоз на родното драматично изкуство“ избухва пожар, който унищожава театъра. От началото на новия сезон трупата играе разделена на две части в различни градове на България, а след това шест години – на сцената на специално ремонтирания „Свободен театър” в София.
+</p>
+<p>
+    Сградата на Народния театър е реконструирана през периода 1924 – 1928 г. по проект на немския архитект Мартин Дюлфер и на българския строителен инженер, завършил в Мюнхен, Кирил Чапаров. Освен изграждането на новата железобетонна конструкция, от Германия е доставена сценична механизация, произведена от фирмите „Круп“ и „МАН“, каквато имат само най-добрите театри в европейските метрополии. Тази техника работи от 1929 г. и до днес, като се използва във всички представления на Голямата сцена на театъра.
+</p>
+<p>
+    По време на бомбардировките над София през Втората световна война е разрушено Южното крило на театъра. След края на войната сградата е възстановена и от април 1945 г. Народният театър отново отваря вратите си за публиката. Последното  преустройство и реставрация е осъществено през  1972 – 1975 г. под ръководството на проф. инж. Венелин Венков, когато се изгражда и специална Камерна сцена. Цялостното художествено оформление е дело на художниците Дечко Узунов, Георги Чапкънов и Иван Кирков, който е и автор на завесата на театъра – неугасващия Феникс.
+</p>";
+            }
+        }
+
+        public static string VazovEN
+        {
+            get
+            {
+                return @"
+<h1>
+    Ivan Vazov National Theatre
+</h1>
+<p>
+    <img src=""/Content/Images/2.jpg"" style=""width:100%;"" />
+</p>
+<p>
+    The Ivan Vazov National Theatre (Bulgarian: Народен театър „Иван Вазов“, Naroden teatar „Ivan Vazov“) is Bulgaria's national theatre, as well as the oldest and most authoritative theatre in the country and one of the important landmarks of Sofia, the capital of Bulgaria. It is located in the centre of the city, with the facade facing the City Garden.
+</p>
+<p>
+    Founded in 1904 by the artists from the Salza i Smyah company, it was initially called simply the National Theatre, but before being named after the prominent writer Ivan Vazov it also bore the name of Krastyu Sarafov between 1952 and 1962. Incidentally Vazov's play, ""The Outcasts"" was the first to be performed at the theatre when it opened. The theatre's Neoclassical building, designed by famous Viennese theatre architects Hermann Helmer and Ferdinand Fellner,[1] was finished in 1906 and opened on 3 January 1907. The building was extensively damaged by a fire in 1923 during an anniversary celebration, but was reconstructed in 1929 by German architect Martin Dülfer.
+</p>
+<p>
+    A theatrical school was established as part of the National Theatre in 1925. The bombing of Sofia in World War II caused considerable damage to the building, but it was reconstructed in 1945. Another reconstruction followed in 1971–1975, and a €100,000 restoration project was implemented in 2006.[2]
+</p>
+<p>
+    The Ivan Vazov National Theatre has a well-equipped main stage with 750 seats, a smaller 120-seat stage and an additional 70-seat one on the fourth floor.
+</p>
+<p>
+    The building's facade is depicted on the obverse of the Bulgarian 50 levs banknote, issued in 1999 and 2006.[3]
+</p>
+<p>
+    The theatre has been host to productions from notable theatre directors such as Lilia Abadjieva.[4]
+</p>";
             }
         }
     }
