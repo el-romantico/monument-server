@@ -11,7 +11,7 @@
     Свети Александър Невски
 </h1>
 <p>
-    <img src=""/Content/Images/1.jpg"" style=""width:100%;"" />
+    <iframe id=""embeded-video"" src=""https://www.youtube.com/embed/E-aZT_D-MZw"" frameborder=""0"" allowfullscreen></iframe>
 </p>
 <p>
     „Свети Александър Невски“ е православен храм - паметник в София, който e катедрален храм на българския патриарх. Около катедралата се намира площад със същото име. През 1955 г.е обявен за паметник на културата с национално значение.
@@ -43,7 +43,7 @@
     Alexander Nevsky Cathedral
 </h1>
 <p>
-    <img src=""/Content/Images/1.jpg"" style=""width:100%;"" />
+    <iframe id=""embeded-video"" src=""https://www.youtube.com/embed/E-aZT_D-MZw"" frameborder=""0"" allowfullscreen></iframe>
 </p>
 <p>
     The St. Alexander Nevsky Cathedral (Bulgarian: Храм-паметник „Свети Александър Невски“, Hram-pametnik „Sveti Aleksandar Nevski“) is a Bulgarian Orthodox cathedral in Sofia, the capital of Bulgaria. Built in Neo-Byzantine style, it serves as the cathedral church of the Patriarch of Bulgaria and it is one of the largest Eastern Orthodox cathedrals in the world, as well as one of Sofia's symbols and primary tourist attractions. The St. Alexander Nevsky Cathedral in Sofia occupies an area of 3,170 square metres (34,100 sq ft) and can hold 10,000 people inside. It is the second-largest cathedral located on the Balkan Peninsula, after the Cathedral of Saint Sava in Belgrade.

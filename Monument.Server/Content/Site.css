@@ -52,3 +52,7 @@ progress.xp::-webkit-progress-value {
 #locale:hover {
     background-color: #C6C6C6;
 }
+
+#embeded-video {
+    width:100%;
+}
