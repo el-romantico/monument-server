@@ -17,11 +17,7 @@ namespace Monument.Server.Controllers
 
         public ActionResult Data(int id, string locale)
         {
-            ViewBag.Locale = locale.ToLower() == "bg" ? "EN" : "BG";
-            ViewBag.Id = id;
-            //var baseUrl = Path.Combine(Request.Url.Scheme, Request.Url.Host);
-            //var route = Path.Combine(Request.Url.Segments.Take(4).ToList().Union(new[] { locale }).ToArray());
-            //ViewBag.LocalizationUrl = Path.Combine(baseUrl.ToString(), route.ToString());
+            ViewBag.Localization = new IdLocaleViewModel { Id = id, Locale = locale.ToLower() == "bg" ? "EN" : "BG" };
             var data = DataService.GetData(id, locale);
             return View(model:data);
         }
