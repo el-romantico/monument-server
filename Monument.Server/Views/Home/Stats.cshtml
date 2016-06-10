@@ -1,38 +1,84 @@
 ﻿@model List<Monument.Service.Statistic>
 
-<table id="stats">
-    <tr>
-        <th>
-            Monument
-        </th>
-        <th>
-            Time
-        </th>
-        <th>
-            Language
-        </th>
-        <th>
-            Coordinates
-        </th>
-    </tr>
-    @foreach (var statistic in Model)
-    {
-        <tr>
-            <td>
-                <img src="~/Content/Images/@(statistic.Id).jpg" width="70" />
-            </td>
-            @*<td>
-                @statistic.Id
-            </td>*@
-            <td>
-                @statistic.Time.ToLongTimeString()
-            </td>
-            <td>
-                @statistic.Locale
-            </td>
-            <td>
-                @statistic.Latitude, @statistic.Longtitude
-            </td>
-        </tr>
-    }
-</table>
+<div id="hot"></div>
+
+
+@*<img src="~/Content/Images/1.jpg" />*@
+<script>
+    var dataObject = [
+        @foreach(var stat in Model)
+        {
+            @Html.Raw(string.Format("{{ id: {0}, language: \"{1}\", time: '{2}', gps: '{3},{4}' }},",
+                stat.Id,
+                stat.Locale,
+                stat.Time.ToLongTimeString(),
+                stat.Latitude.ToString(),
+                stat.Longtitude.ToString()))
+        }
+    ];
+    //var currencyCodes = ['EUR', 'JPY', 'GBP', 'CHF', 'CAD', 'AUD', 'NZD', 'SEK', 'NOK', 'BRL', 'CNY', 'RUB', 'INR', 'TRY', 'THB', 'IDR', 'MYR', 'MXN', 'ARS', 'DKK', 'ILS', 'PHP'];
+
+    //var flagRenderer = function (instance, td, row, col, prop, value, cellProperties) {
+    //    var currencyCode = value;
+
+    //    while (td.firstChild) {
+    //        td.removeChild(td.firstChild);
+    //    }
+
+    //    if (currencyCodes.indexOf(currencyCode) > -1) {
+    //        var flagElement = document.createElement('DIV');
+    //        flagElement.className = 'flag ' + currencyCode.toLowerCase();
+    //        td.appendChild(flagElement);
+
+    //    } else {
+    //        var textNode = document.createTextNode(value === null ? '' : value);
+    //        td.appendChild(textNode);
+    //    }
+    //};
+
+    var hotElement = document.querySelector('#hot');
+    var hotElementContainer = hotElement.parentNode;
+    var hotSettings = {
+        data: dataObject,
+        columns: [
+            {
+                data: 'id',
+                type: 'numeric',
+                width: 40
+            },
+            //{
+            //    data: 'flag',
+            //    renderer: flagRenderer
+            //},
+            {
+                data: 'language',
+                type: 'text'
+            },
+            {
+                data: 'time',
+                type: 'text',
+            },
+            {
+                data: 'gps',
+                type: 'text',
+                format: '0.0000'
+            }
+        ],
+        stretchH: 'all',
+        width: 806,
+        autoWrapRow: true,
+        height: 441,
+        maxRows: 22,
+        rowHeaders: true,
+        colHeaders: [
+            'ID',
+            'Language',
+            'Time',
+            'GPS',
+        ]
+    };
+
+    var hot = new Handsontable(hotElement, hotSettings);
+
+
+</script>
