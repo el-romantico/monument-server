@@ -13,7 +13,7 @@ namespace Monument.Server.Controllers
 
         public ActionResult Data(int id)
         {
-            return View("Data", 1);
+            return View("Data", id);
         }
     }
 }
