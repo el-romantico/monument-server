@@ -9,9 +9,6 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <a id="locale" href="@Url.Action("Data", "Home", ViewBag.Localization)">
-        @ViewBag.Localization.Locale
-    </a>
     <div class="container body-content">
         @RenderBody()
     </div>

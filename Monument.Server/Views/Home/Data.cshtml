@@ -1,2 +1,7 @@
 ﻿@model string
+
+<a id="locale" href="@Url.Action("Data", "Home", ViewBag.Localization)">
+    @ViewBag.Localization.Locale
+</a>
+
 @Html.Raw(Model)
