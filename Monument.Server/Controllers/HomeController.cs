@@ -1,4 +1,6 @@
-﻿using System.Web.Mvc;
+﻿using Monument.Server.Models;
+using Monument.Service;
+using System.Web.Mvc;
 
 namespace Monument.Server.Controllers
 {
@@ -11,9 +13,10 @@ namespace Monument.Server.Controllers
             return View();
         }
 
-        public ActionResult Data(int id)
+        public ActionResult Data(int id, string locale)
         {
-            return View("Data", id);
+            var data = DataService.GetData(id, locale);
+            return View(model:data);
         }
     }
 }
