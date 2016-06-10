@@ -6,7 +6,7 @@ namespace Monument.Service
 {
     public static class DataService
     {
-        private static List<Statistic> _statistics { get; set; } = new List<Statistic>();
+        private static List<Statistic> _statistics { get; set; }
 
         public static string GetData(int id, string locale)
         {
@@ -76,7 +76,11 @@ namespace Monument.Service
 
         public static List<Statistic> GetStats()
         {
-            return _statistics.OrderByDescending(x => x.Time).ToList();
+            if(_statistics != null)
+            {
+                return _statistics.OrderByDescending(x => x.Time).ToList();
+            }
+            return new List<Statistic>();
         }
     }
 }
