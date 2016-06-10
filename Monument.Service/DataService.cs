@@ -70,6 +70,11 @@ namespace Monument.Service
                         break;
                 }
             }
+
+            if (_statistics == null)
+            {
+                _statistics = new List<Statistic>();
+            }
             _statistics.Add(statistic);
             return result;
         }
