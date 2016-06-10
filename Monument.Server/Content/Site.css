@@ -24,11 +24,26 @@ textarea {
 
 .container.body-content h1 {
     color: #333;
-    font-size: 26px;
+    font-size: 28px;
     margin-bottom: 30px;
     text-align: center;
 }
 
-progress.xp::-webkit-progress-value { 
-   background: rgb(160, 107, 225);
+progress.xp::-webkit-progress-value {
+    background: rgb(160, 107, 225);
 }
+
+#locale {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #E8E8E8;
+    color: #000;
+    opacity: 0.7;
+    text-align: center;
+    vertical-align: middle;
+    font-family: verdana;
+    text-decoration:none;
+}
+

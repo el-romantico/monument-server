@@ -27,6 +27,9 @@
             </div>
         </div>
     </div>*@
+    <a id="locale" href="@Url.Action("Data", "Home", new { id = ViewBag.Id, locale = ViewBag.Locale })">
+        @ViewBag.Locale
+    </a>
     <div class="container body-content">
         @RenderBody()
         @*<hr />
