@@ -128,5 +128,66 @@
 ";
             }
         }
+
+        public static string NdkBG
+        {
+            get
+            {
+                return @"
+<h1>
+    Национален дворец на културата
+</h1>
+<p>
+    <img src=""/Content/Images/3.jpg"" style=""width:100%;"" />
+</p>
+<p>
+    Националният дворец на културата, известен и с краткото НДК (наименование до 1990 г. – Народен дворец на културата „Людмила Живкова“, на името на Людмила Живкова, която дава идеята за създаването му), е национален културен център за конференции, изложби и специални събития, най-големият конгресен център в Югоизточна Европа. Предназначението на сградата, която разполага с 13 зали и се намира в центъра на София, е да се използва за културни прояви.
+</p>
+<p>
+    Строежът на НДК е част от инициативите през 1981 г. за отбелязването на 1300 години от създаването на българската държава.
+</p>
+<p>
+    Архитектурният проект на основната сграда е дело на колектив с ръководител арх. Александър Баров, а оформлението на околното пространство е по идея на колектив начело с арх. Атанас Агура. Главен проектант на парка към НДК е инж. (ландшафтен архитект) Валентина Атанасова.
+</p>
+<p>
+    Най-голямата зала („Зала 1“) разполага с 3380 места. Сградата е разположена на 123 000 m² площ, разгърната на 8 етажа и 3 подземни нива. НДК е построен върху площ от 18 300 m² и има обем 576 800 m³.
+</p>";
+            }
+        }
+
+        public static string NdkEN
+        {
+            get
+            {
+                return @"
+<h1>
+    National Palace of Culture
+</h1>
+<p>
+    <img src=""/Content/Images/3.jpg"" style=""width:100%;"" />
+</p>
+<p>
+    The National Palace of Culture (Bulgarian: Национален дворец на културата, Natsionalen dvorets na kulturata; abbreviated as НДК, NDK), located in Sofia, the capital of Bulgaria, is the largest multifunctional conference and exhibition centre in south-eastern Europe. It was opened in 1981 in celebration of Bulgaria's 1300th anniversary.
+</p>
+<p>
+    The centre was initiated by a suggestion of Lyudmila Zhivkova, daughter of the communist leader of the former People's Republic of Bulgaria Todor Zhivkov. The project was designed by a team of Bulgarian and foreign architects led by Alexander Georgiev Barov (1931–1999). The landscaping of Bulgaria Square in front of the National Palace of Culture was made by another team of architects and landscape engineers, led by Atanas Agura. Internally, the building exhibits a unified style, employing an octagonal motif and heavy, dark colours. Large bright murals depicting historical figures and events cover the main wall of many of the smaller halls.
+</p>
+<p>
+    Architects of the main building are Alexander Barov and Ivan Kanazirev, while Atanas Agura is the architect behind the surrounding areas. During the '90s, immediately following the change of the political model in the country, NPC lost a significant portion of its property, including infrastructure, commercial areas and car parks. Since 2011, NPC has been restructured into a commercial company, but it remains a state property. It is self-sustainable and it does not receive any subsidies. The first public financial report of the Palace was released in 2012. A substantial part of the revenues are annually invested in new projects and its own cultural events.
+</p>
+<p>
+    The Festival and Congress Centre (FCC) is the Varna branch of NPC. It was founded in 1986 and it is gradually becoming the center of some of the most prestigious events in the field of art and culture. FCC is host to artistic events and festivals, scientific meetings, seminars and more. FCC is the face of Bulgaria, when it comes to prestigious international congress organizations such as ICCA, EFCT, AIPC and it is included in the only pan-European network of cinemas, Europe Cinema, in the European Union (EU).
+</p>
+<p>
+    In July 2005, the National Palace of Culture was proclaimed the best congress centre in the world for the year by the International Organization of Congress Centres.
+</p>
+<p>
+    The conference centre is equipped to host a variety of events, including concerts, multilingual conferences, exhibitions and shows. It has an area of 123,000 m² on eight floors and three underground levels. The National Palace of Culture has 13 halls and 15,000 m² of exhibition area, a trade centre and a car park. The main hall can seat over 3,000 people.
+</p>
+<p>
+    The Sofia International Film Festival takes place in the NDK.
+</p>";
+            }
+        }
     }
 }
