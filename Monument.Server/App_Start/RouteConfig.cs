@@ -11,12 +11,12 @@ namespace Monument.Server
 
             routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{id}/{locale}",
+                url: "{controller}/{action}/{locale}/{id}",
                 defaults: new {
                     controller = "Home",
                     action = "Index",
-                    id = UrlParameter.Optional,
-                    locale = UrlParameter.Optional
+                    locale = "bg",
+                    id = UrlParameter.Optional
                 }
             );
         }

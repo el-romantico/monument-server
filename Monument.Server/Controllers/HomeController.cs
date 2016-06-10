@@ -15,10 +15,10 @@ namespace Monument.Server.Controllers
             return View();
         }
 
-        public ActionResult Data(int id, string locale)
+        public ActionResult Data(string locale, int? id)
         {
             ViewBag.Localization = new IdLocaleViewModel { Id = id, Locale = locale.ToLower() == "bg" ? "EN" : "BG" };
-            var data = DataService.GetData(id, locale);
+            var data = DataService.GetData(id ?? 0, locale);
             return View(model:data);
         }
     }

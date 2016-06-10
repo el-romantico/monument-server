@@ -19,7 +19,7 @@
                 switch (id)
                 {
                     case 1:
-                        return StaticData.StaticData.NevskiBG;
+                        return StaticData.StaticData.NevskiEN;
                     default:
                         return string.Empty;
                 }

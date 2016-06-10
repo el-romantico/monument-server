@@ -34,5 +34,11 @@
             }
         }
 
+        public static string NevskiEN {
+            get
+            {
+                return "nevski en";
+            }
+        }
     }
 }
