@@ -111,20 +111,21 @@
     The Ivan Vazov National Theatre (Bulgarian: Народен театър „Иван Вазов“, Naroden teatar „Ivan Vazov“) is Bulgaria's national theatre, as well as the oldest and most authoritative theatre in the country and one of the important landmarks of Sofia, the capital of Bulgaria. It is located in the centre of the city, with the facade facing the City Garden.
 </p>
 <p>
-    Founded in 1904 by the artists from the Salza i Smyah company, it was initially called simply the National Theatre, but before being named after the prominent writer Ivan Vazov it also bore the name of Krastyu Sarafov between 1952 and 1962. Incidentally Vazov's play, ""The Outcasts"" was the first to be performed at the theatre when it opened. The theatre's Neoclassical building, designed by famous Viennese theatre architects Hermann Helmer and Ferdinand Fellner,[1] was finished in 1906 and opened on 3 January 1907. The building was extensively damaged by a fire in 1923 during an anniversary celebration, but was reconstructed in 1929 by German architect Martin Dülfer.
+    Founded in 1904 by the artists from the Salza i Smyah company, it was initially called simply the National Theatre, but before being named after the prominent writer Ivan Vazov it also bore the name of Krastyu Sarafov between 1952 and 1962. Incidentally Vazov's play, ""The Outcasts"" was the first to be performed at the theatre when it opened. The theatre's Neoclassical building, designed by famous Viennese theatre architects Hermann Helmer and Ferdinand Fellner, was finished in 1906 and opened on 3 January 1907. The building was extensively damaged by a fire in 1923 during an anniversary celebration, but was reconstructed in 1929 by German architect Martin Dülfer.
 </p>
 <p>
-    A theatrical school was established as part of the National Theatre in 1925. The bombing of Sofia in World War II caused considerable damage to the building, but it was reconstructed in 1945. Another reconstruction followed in 1971–1975, and a €100,000 restoration project was implemented in 2006.[2]
+    A theatrical school was established as part of the National Theatre in 1925. The bombing of Sofia in World War II caused considerable damage to the building, but it was reconstructed in 1945. Another reconstruction followed in 1971–1975, and a €100,000 restoration project was implemented in 2006.
 </p>
 <p>
     The Ivan Vazov National Theatre has a well-equipped main stage with 750 seats, a smaller 120-seat stage and an additional 70-seat one on the fourth floor.
 </p>
 <p>
-    The building's facade is depicted on the obverse of the Bulgarian 50 levs banknote, issued in 1999 and 2006.[3]
+    The building's facade is depicted on the obverse of the Bulgarian 50 levs banknote, issued in 1999 and 2006.
 </p>
 <p>
-    The theatre has been host to productions from notable theatre directors such as Lilia Abadjieva.[4]
-</p>";
+    The theatre has been host to productions from notable theatre directors such as Lilia Abadjieva.
+</p>
+";
             }
         }
     }
