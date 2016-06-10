@@ -1,0 +1,35 @@
+﻿@model List<Monument.Service.Statistic>
+
+<table>
+    <tr>
+        <th>
+            Id
+        </th>
+        <th>
+            Time
+        </th>
+        <th>
+            Language
+        </th>
+        <th>
+            Coordinates
+        </th>
+    </tr>
+    @foreach (var statistic in Model)
+    {
+        <tr>
+            <td>
+                @statistic.Id
+            </td>
+            <td>
+                @statistic.Time.ToShortTimeString()
+            </td>
+            <td>
+                @statistic.Locale
+            </td>
+            <td>
+                @statistic.Latitude, @statistic.Longtitude
+            </td>
+        </tr>
+    }
+</table>

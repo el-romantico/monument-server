@@ -21,5 +21,11 @@ namespace Monument.Server.Controllers
             var data = DataService.GetData(id ?? 0, locale);
             return View(model:data);
         }
+
+        public ActionResult Stats()
+        {
+            var stats = DataService.GetStats();
+            return View(stats);
+        }
     }
 }
