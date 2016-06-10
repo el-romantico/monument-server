@@ -37,7 +37,9 @@ progress.xp::-webkit-progress-value {
     position: fixed;
     top: 10px;
     right: 10px;
-    padding: 10px;
+    width:40px;
+    height:40px;
+    line-height:40px;
     background-color: #E8E8E8;
     color: #000;
     opacity: 0.7;
@@ -47,3 +49,6 @@ progress.xp::-webkit-progress-value {
     text-decoration:none;
 }
 
+#locale:hover {
+    background-color: #C6C6C6;
+}
