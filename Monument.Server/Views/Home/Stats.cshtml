@@ -1,9 +1,9 @@
 ﻿@model List<Monument.Service.Statistic>
 
-<table>
+<table id="stats">
     <tr>
         <th>
-            Id
+            Monument
         </th>
         <th>
             Time
@@ -19,10 +19,13 @@
     {
         <tr>
             <td>
-                @statistic.Id
+                <img src="~/Content/Images/@(statistic.Id).jpg" width="70" />
             </td>
+            @*<td>
+                @statistic.Id
+            </td>*@
             <td>
-                @statistic.Time.ToShortTimeString()
+                @statistic.Time.ToLongTimeString()
             </td>
             <td>
                 @statistic.Locale
