@@ -8,10 +8,10 @@
             {
                 return @"
 <h1>
-    Свети Александър Невски
+    Катедрала Свети Александър Невски
 </h1>
-<p>
-    <iframe id=""embeded-video"" src=""https://www.youtube.com/embed/E-aZT_D-MZw"" frameborder=""0"" allowfullscreen></iframe>
+<p class=""video-container"">
+    <iframe id=""embeded-video"" src=""https://www.youtube.com/embed/E-aZT_D-MZw"" frameborder=""0"" width=""560"" height=""315"" allowfullscreen></iframe>
 </p>
 <p>
     „Свети Александър Невски“ е православен храм - паметник в София, който e катедрален храм на българския патриарх. Около катедралата се намира площад със същото име. През 1955 г.е обявен за паметник на културата с национално значение.
@@ -42,8 +42,8 @@
 <h1>
     Alexander Nevsky Cathedral
 </h1>
-<p>
-    <iframe id=""embeded-video"" src=""https://www.youtube.com/embed/E-aZT_D-MZw"" frameborder=""0"" allowfullscreen></iframe>
+<p class=""video-container"">
+    <iframe id=""embeded-video"" src=""https://www.youtube.com/embed/E-aZT_D-MZw"" frameborder=""0"" width=""560"" height=""315"" allowfullscreen></iframe>
 </p>
 <p>
     The St. Alexander Nevsky Cathedral (Bulgarian: Храм-паметник „Свети Александър Невски“, Hram-pametnik „Sveti Aleksandar Nevski“) is a Bulgarian Orthodox cathedral in Sofia, the capital of Bulgaria. Built in Neo-Byzantine style, it serves as the cathedral church of the Patriarch of Bulgaria and it is one of the largest Eastern Orthodox cathedrals in the world, as well as one of Sofia's symbols and primary tourist attractions. The St. Alexander Nevsky Cathedral in Sofia occupies an area of 3,170 square metres (34,100 sq ft) and can hold 10,000 people inside. It is the second-largest cathedral located on the Balkan Peninsula, after the Cathedral of Saint Sava in Belgrade.
@@ -186,6 +186,58 @@
 </p>
 <p>
     The Sofia International Film Festival takes place in the NDK.
+</p>";
+            }
+        }
+
+        public static string SuBG
+        {
+            get
+            {
+                return @"
+<h1>
+    Софийски университет „Св. Климент Охридски“
+</h1>
+<p>
+    <img src=""/Content/Images/4.jpg"" style=""width:100%;"" />
+</p>
+<p>
+    Софийският университет „Св. Климент Охридски“ (от 1944 до 1989 г. се нарича Софийски държавен университет) е най-старото и най-голямото висше училище в България.
+</p>
+<p>
+    Според световната класация на университетите към 2014 година заема 826-то място в света и 341-то в цяла Европа.
+</p>
+<p>
+    Университетът е създаден на 1 октомври 1888 г. като Висш педагогически курс . Централната част на сградата на СУ на стойност 6 милиона златни лева е построено с дарение на братята Евлоги и Христо Георгиеви, чиито скулптури красят нейната фасада Пъвият ректор на Софийския университет е акад. Александър Теодоров-Балан.
+</p>
+<p>
+    През 1880 г. Министерството на просвещението на току-що възстановената българска държава внася в Народното събрание проект за Основен закон за училищата, чиято идея е да се създаде българско висше училище, което да приема завършилите обучението си в реалните и класическите гимназии. Едва през 1887 г. е издадена наредба от министъра на просвещението Тодор Иванчов за откриване на педагогически клас към Първа мъжка гимназия в София. Във временния правилник е предвидено функционирането само на историко-филологическо отделение.
+</p>
+<p>
+    На заседанието си от 8 декември 1888 г., отчитайки доброто начало на Висшия педагогически курс, Народното събрание взема решение и приема закон за преобразуването му във Висше училище.  На 29 януари 1889 г. в присъствието на Иван Шишманов, представител на Министерство на просвещението, е избран първият ректор на висшето училище – Александър Теодоров-Балан измежду първите му седем преподаватели – т. нар. „нови седмочисленици“, сред които Любомир Милетич, Иван Георгов и Никола Михайловски. През 1904 г. е преименуван на университет.
+</p>";
+            }
+        }
+
+        public static string SuEN
+        {
+            get
+            {
+                return @"
+<h1>
+    Sofia University
+</h1>
+<p>
+    <img src=""/Content/Images/4.jpg"" style=""width:100%;"" />
+</p>
+<p>
+    The University of Sofia (St. Kliment Ohridski) or simply Sofia University (Bulgarian: Софийски университет „Св. Климент Охридски“, Sofiyski universitet „Sv. Kliment Ohridski“) is the oldest higher education institution in Bulgaria, founded on 1 October, 1888. The edifice of the university was constructed between 1924 and 1934 with the financial support of the brothers Evlogi Georgiev and Hristo Georgiev, whose sculptures are now featured on its façade, and has an area of 18,624 m² and a total of 324 premises.
+</p>
+<p>
+    The university has 16 faculties and three departments, where over 21,000 students receive their education. In addition, it also disposes of a university library, a university press, a computer centre, a sports centre and several other structures. The current rector is Anastas Gerdzhikov.
+</p>
+<p>
+    Sofia University has been consistently ranked as the top university in Bulgaria according to national and international rankings, and is constantly among the best 4 percent of world universities according to QS World University Rankings.
 </p>";
             }
         }

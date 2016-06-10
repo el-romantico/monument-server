@@ -14,6 +14,8 @@
                         return StaticData.StaticData.VazovBG;
                     case 3:
                         return StaticData.StaticData.NdkBG;
+                    case 4:
+                        return StaticData.StaticData.SuBG;
                     default:
                         return string.Empty;
                 }
@@ -28,6 +30,8 @@
                         return StaticData.StaticData.VazovEN;
                     case 3:
                         return StaticData.StaticData.NdkEN;
+                    case 4:
+                        return StaticData.StaticData.SuEN;
                     default:
                         return string.Empty;
                 }
